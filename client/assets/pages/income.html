@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Income</title>
+  </head>
+  <body class="continer">
+    <h1>Income</h1>
+    <nav>
+      <ul>
+        <li class="item">
+          <a href="./expanse.html">expanse</a>
+        </li>
+        <li class="item">
+          <a href="./income.html">income</a>
+        </li>
+        <li class="item">
+          <a href="./balance.html">balance</a>
+        </li>
+      </ul>
+    </nav>
+    <form id="form">
+      <input id="Aim" name="incomeAim" type="text" placeholder="Aim" required />
+      <input
+        id="incomeSum"
+        name="incomeSum"
+        type="text"
+        placeholder="Summ"
+        required
+      />
+      <button type="submit">Submit</button>
+    </form>
+    <table id="table">
+      <tr class="table-header">
+        <th id="incomeId">N</th>
+        <th id="incomeAim">Aim</th>
+        <th id="incomeSumm">Summ</th>
+        <th id="incomeTime">Time</th>
+        <th id="deleteTd">Method</th>
+      </tr>
+    </table>
+    <script src="/js/request.js"></script>
+    <script src="/js/income.js"></script>
+  </body>
+</html>

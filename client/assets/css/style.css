@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body {
+  background-color: black;
+  color: white;
+}
+.container {
+  width: 100vw;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+nav {
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  text-align: center;
+}
+ul {
+  width: 100%;
+  height: 100%;
+  padding: 0 20px;
+  display: flex;
+  margin: 0;
+}
+li {
+  text-align: center;
+  width: 33%;
+  height: 100%;
+  background-color: bisque;
+}
+a {
+  text-transform: uppercase;
+  font-size: 35px;
+  color: black;
+  text-decoration: none;
+}
+li:hover {
+  background-color: sandybrown;
+  transition: 0.3s;
+  touch-action: auto;
+}
+table {
+  width: 99%;
+  height: 100%;
+  padding: 0 20px;
+  margin: 0;
+  color: black;
+}
+tbody {
+  width: 100%;
+}
+tr {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px 0;
+  background-color: bisque;
+  font-size: 23px;
+}
+#incomeId {
+  width: 10%;
+}
+#incomeAim {
+  width: 40%;
+}
+#incomeSumm {
+  width: 15%;
+}
+#incomeTime {
+  width: 25%;
+}
+form {
+  width: 99%;
+  height: 100%;
+  padding: 0 20px;
+  margin: 0;
+  display: flex;
+}
+input {
+  width: 40%;
+  font-size: 21px;
+  padding: 15px 20px;
+}
+button {
+  font-size: 21px;
+  width: 20%;
+  background-color: bisque;
+}
+#deleteTd {
+  width: 10%;
+}
+#deleteBtn {
+  background-color: red;
+  width: 100%;
+  height: 100%;
+  color: black;
+  text-transform: uppercase;
+}
